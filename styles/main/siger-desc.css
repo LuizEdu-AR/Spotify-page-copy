@@ -1,0 +1,23 @@
+.singer-description {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.singer-description h1 {
+    margin: 10px 0;
+}
+
+.singer-description div a {
+    color: #000;
+    background-color: var(--green-dark);
+    padding: 8px 18px;
+    border-radius: 100px;
+}
+
+.verified-artist {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

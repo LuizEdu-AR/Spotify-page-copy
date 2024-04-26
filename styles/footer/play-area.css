@@ -1,0 +1,50 @@
+footer {
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 12px 25px;
+    background: var(--background2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer h5 {
+    font-weight: 500;
+}
+
+footer .play-center-position {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+footer .img-music-on {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+footer .play-music {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .pause-etc {
+    display: flex;
+    gap: 8px;
+}
+
+footer .inverted-svg {
+    transform: scaleX(-1);
+}
+
+footer .heart-img {
+    margin-top: 10px;
+}
+
+footer .options-music {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

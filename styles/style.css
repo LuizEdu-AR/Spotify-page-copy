@@ -1,0 +1,55 @@
+a {
+    text-decoration: none;
+}
+
+.container {
+    display: grid;
+    margin: 10px;
+    grid-template-columns: 0.5fr 1fr 2fr;
+    gap: 10px;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 97vh;
+}
+
+img {
+    pointer-events: none;
+}
+
+aside {
+    grid-row: 1/-1;
+    grid-column: 1;
+}
+main {
+    grid-column: 2/-1;
+    grid-row: 1/-1;
+}
+footer {
+    grid-column: 1/-1;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.img-music-playing img, .img-music img, .img-queue img {
+    height: 55px;
+    width: 61px;
+}
+
+.container-singer {
+    display: flex;
+    gap: 20px;
+}
+
+.volume-low, .maximize {
+    width: 20px;
+    height: 20px;
+}
+
+body{
+    background-image: url("../source/rrrr.png");
+    background-position: center;
+    background-size: cover;
+}

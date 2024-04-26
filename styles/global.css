@@ -1,0 +1,18 @@
+@import "reset.css";
+@import "style.css";
+
+@import "color/color.css";
+
+@import "sidebar/sidebar.css";
+
+@import "main/top-search.css";
+@import "main/pop-songs.css";
+@import "main/queue.css";
+@import "main/siger-desc.css";
+
+
+@import "footer/play-area.css";
+
+body {
+    background-color: #000;
+}

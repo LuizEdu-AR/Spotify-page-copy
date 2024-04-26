@@ -1,0 +1,31 @@
+.queue h5 {
+    font-weight: 500;
+}
+
+.queue .queue-margin {
+    margin: 12px 0;
+}
+
+.queue-container {
+    background: var(--background2);
+    width: 300px;
+    border-radius: 15px;
+    padding: 25px 15px;
+}
+
+.queue-container .img-queue {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.queue-container .img-queue button {
+    margin-left: 100px;
+}
+
+.queue-container .img-queue button img {
+    width: 18px;
+    height: 12px;
+    pointer-events: none;
+}

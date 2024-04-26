@@ -1,0 +1,51 @@
+.music-to-play {
+    margin-top: 15px;
+}
+
+.img-music-playing {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.music-description-playing {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.music-description-playing .green {
+    color: var(--green-dark);
+}
+
+.line {
+    height: 1px;
+    background: var(--gray-light);
+    width: 325px;
+    margin: 10px 0;
+}
+
+.popular-songs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.popular-songs .img-music {
+    display: flex;
+    align-items: center;
+    gap: 10px;    
+}
+
+.popular-songs .music-description {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.music-description-playing h5, .music-description h5 {
+    font-weight: 500;
+}
